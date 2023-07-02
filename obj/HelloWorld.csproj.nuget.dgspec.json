@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projects\\ASP .NET Web API\\Learning From Scratch\\HelloWorld\\HelloWorld.csproj": {}
+  },
+  "projects": {
+    "E:\\Projects\\ASP .NET Web API\\Learning From Scratch\\HelloWorld\\HelloWorld.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\ASP .NET Web API\\Learning From Scratch\\HelloWorld\\HelloWorld.csproj",
+        "projectName": "HelloWorld",
+        "projectPath": "E:\\Projects\\ASP .NET Web API\\Learning From Scratch\\HelloWorld\\HelloWorld.csproj",
+        "packagesPath": "C:\\Users\\EVLSR\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\ASP .NET Web API\\Learning From Scratch\\HelloWorld\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EVLSR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.143, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "microsoft.data.sqlclient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "microsoft.entityframeworkcore": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "microsoft.entityframeworkcore.sqlserver": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
